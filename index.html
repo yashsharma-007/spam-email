@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Spam Detection</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        h1 {
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">Email Spam Detection</h1>
+        <form action="/check_email" method="post" class="custom-form">
+            <div class="mb-3">
+                <label for="email_id" class="form-label">Email ID</label>
+                <input type="email" class="form-control" id="email_id" name="email_id" required>
+            </div>
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" class="form-control" id="title" name="title" required>
+            </div>
+            <div class="mb-3">
+                <label for="body" class="form-label">Body</label>
+                <textarea class="form-control" id="body" name="body" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Check Spam</button>
+        </form>
+    </div>
+</body>
+</html>

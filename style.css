@@ -1,0 +1,33 @@
+body {
+    background-image: url('1.jpg');
+    background-size: cover; /* Adjust as needed */
+}
+h1 {
+    font-weight: bold;
+    color :#070333;
+    font-style: oblique;
+}
+
+
+.custom-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 60px;
+    border: 1px solid #c5cc68;
+    border-radius: 10px;
+    background-color: #a5e0d6;
+    /*background-image: url('1.jpg');*/
+}
+
+.result-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #972f41;
+    border-radius: 10px;
+    background-color: #65cace;
+}
+
+.result-container p {
+    margin-bottom: 10px;
+}

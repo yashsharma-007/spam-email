@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Detection Result</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">Spam Detection Result</h1>
+        <div class="result-container">
+            <p><strong>Email ID:</strong> {{ email_id }}</p>
+            <p><strong>Title:</strong> {{ title }}</p>
+            <p><strong>Spam Detection:</strong> {{ response }}</p>
+            <a href="/" class="btn btn-primary">Check Another Email</a>
+        </div>
+    </div>
+</body>
+</html>

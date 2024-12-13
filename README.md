@@ -1,6 +1,7 @@
 # Spam Email Detection using Machine Learning
 
 <p align="right">Author: Yash Sharma</p>
+<p align="right">Author: Divya Sabharwal</p>
 
 ## Table of Contents
 1. [Project Overview](#project-overview)

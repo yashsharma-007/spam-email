@@ -2,8 +2,12 @@
 
 ## Authors
 
-- **@#yashsharma-007**
-- **Divya Sabharwal**
+<div style="text-align: right; padding-right: 20px;">
+  <p>Authors:</p>
+  <p><a href="https://github.com/yashsharma-007" target="_blank">Yash Sharma</a></p>
+  <p><a href="https://github.com/divyasabharwal" target="_blank">Divya Sabharwal</a></p>
+</div>
+
 
 ---
 

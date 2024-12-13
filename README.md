@@ -1,8 +1,10 @@
 # Spam Email Detection using Machine Learning
 
-<p style="position: absolute; top: 10px; right: 10px;">Authors:</p>
-<p style="position: absolute; top: 30px; right: 10px;">Yash Sharma</p>
-<p style="position: absolute; top: 50px; right: 10px;">Divya Sabharwal</p>
+<div style="text-align: right; padding-right: 20px;">
+  <p>Authors:</p>
+  <p>Yash Sharma</p>
+  <p>Divya Sabharwal</p>
+</div>
 
 
 

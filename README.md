@@ -2,7 +2,7 @@
 
 ## Authors
 
-- **Yash Sharma**
+- **@yashsharma-007**
 - **Divya Sabharwal**
 
 ---
